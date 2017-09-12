@@ -1,0 +1,52 @@
+
+p{	color:pink;
+	font-family:Arial;
+	font-weight:bold/normal;or 100 to 900
+	font-style:italic/normal;
+	font-size:24px;
+	font:bold italic 14px Tahoma;}
+body{background-color:blue;
+padding-top:50px;
+padding:;
+border-style:solid/inset/outset/dotted/dashed/double/groove/ridge;
+border-width:5px;
+border-color:blue;
+border:4px;
+border-top:9px; 
+margin:5px;}
+div{	border: 1px solid deeppink;
+	background-color:black;#00baff/rgb(0,0,0)=black 255=white
+	width:250px; 
+	height:100% ;
+	background-image: url(yogvdv.png);
+	background-repeat: no-repeat;repeat-x/y 
+	background-position: center top;
+	background-attachment: fixed;
+	background-color: red;	}
+	.blue{color:blue};
+span{	color:green;
+	text-decoration: underline;}
+#blue{	color:blue;}
+div p{	color:pink;}
+.red p{}
+p:first-letter{}
+#parent p:first-child{}
+#parent p:last-child{}
+#parent p:before{}
+#parent p:nth-child(odd){}
+#parent p:nth-child(even){}
+#parent p:nth-child(2n){}
+#parent p:nth-child(4){}
+a{color:green;
+text-decoration: none;}
+a:hover{color:pink;
+text-decoration: underline;}
+a:active{	color:orange;}
+a:visited{color:pink;
+text-decoration: none;}
+ul{	list-style-type: circle;
+	list-style-image: url();
+	line-height: 600%;  
+	list-style-position: inside;}
+.rounded_box{	border-radius: 10px;
+	border-top-left-radius: 10px;}
